@@ -1,7 +1,7 @@
 {
-  "name": "@uiw/react-md-editor",
+  "name": "@namskiiiii/react-md-editor-naked",
   "version": "3.0.7",
-  "description": "A markdown editor with preview, implemented with React.js and TypeScript.",
+  "description": "A markdown editor with preview, implemented with React.js and TypeScript without styling.",
   "homepage": "https://uiwjs.github.io/react-md-editor/",
   "author": "kenny wang <wowohoo@qq.com>",
   "main": "lib/cjs/index.js",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uiwjs/react-md-editor"
+    "url": "https://github.com/namnd/react-md-editor-naked"
   },
   "files": [
     "dist",
@@ -53,12 +53,12 @@
     "@types/react": "17.0.3",
     "@types/react-dom": "17.0.3",
     "@types/react-test-renderer": "17.0.1",
-    "@uiw/react-github-corners": "1.2.0",
     "@uiw/react-codesandbox": "1.1.0",
+    "@uiw/react-github-corners": "1.2.0",
     "@uiw/react-shields": "1.1.1",
     "compile-less-cli": "1.7.0",
-    "katex": "0.13.5",
     "husky": "4.3.8",
+    "katex": "0.13.5",
     "kkt": "6.8.3",
     "lint-staged": "10.5.4",
     "prettier": "2.2.1",
@@ -70,7 +70,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.0",
-    "@uiw/react-markdown-preview": "^3.0.3"
+    "@namskiiiii/react-markdown-preview-naked": "^3.0.3"
   },
   "husky": {
     "hooks": {
