@@ -6,7 +6,6 @@ import Toolbar from './components/Toolbar';
 import DragBar from './components/DragBar';
 import { getCommands, ICommand } from './commands';
 import { reducer, EditorContext, ContextStore, PreviewType } from './Context';
-import './index.less';
 
 export interface MDEditorProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'>, IProps {
   /**
